@@ -1,6 +1,5 @@
 Tentu! Berikut adalah contoh `README.md` untuk proyek Bootstrap MultiPage Anda:
 
-```markdown
 # Bootstrap MultiPage
 
 Bootstrap MultiPage adalah sebuah proyek untuk membuat halaman web multipage menggunakan Bootstrap.
@@ -42,6 +41,3 @@ Proyek ini dilisensikan di bawah lisensi MIT - lihat berkas [LICENSE](LICENSE) u
 ---
 
 Terima kasih telah menggunakan Bootstrap MultiPage. Silakan hubungi kami untuk pertanyaan lebih lanjut.
-```
-
-Silakan sesuaikan informasi seperti URL repositori, deskripsi, dan panduan instalasi yang sesuai dengan proyek Anda.
