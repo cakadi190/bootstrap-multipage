@@ -1,8 +1,37 @@
 {
-  "name": "bootstrap-examples",
-  "description": "Functional examples for building with Bootstrap using popular tools and frameworks.",
+  "name": "vite",
+  "description": "Include Bootstrap's source Sass and individual JavaScript plugins with Vite.",
   "version": "0.0.0",
   "private": true,
   "repository": "twbs/examples",
-  "license": "MIT"
+  "license": "MIT",
+  "stackblitz": {
+    "startCommand": "npm start"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@popperjs/core": "^2.11.8",
+    "@types/node": "^20.14.10",
+    "bootstrap": "^5.3.3",
+    "boxicons": "^2.1.4",
+    "feather-icons": "^4.29.2",
+    "fs": "^0.0.1-security",
+    "heroicons": "^2.1.5",
+    "path": "^0.12.7",
+    "tabler-icons": "^1.35.0",
+    "tsc": "^2.0.4",
+    "typescript": "^5.5.3",
+    "url": "^0.11.3",
+    "vite-plugin-html": "^3.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.77.6",
+    "vite": "^5.2.7"
+  }
 }
