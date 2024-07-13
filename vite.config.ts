@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 import path from 'path';
 import fs from 'fs';
-import { createHtmlPlugin } from 'vite-plugin-html'
+import { createHtmlPlugin } from 'vite-plugin-html';
+import { ViteFaviconsPlugin } from 'vite-plugin-favicon2';
 
 function findHtmlFiles(srcDir: string): { [key: string]: string } {
   const htmlFiles: { [key: string]: string } = {};
@@ -43,6 +44,7 @@ export default defineConfig({
     }
   },
   plugins: [
+    ViteFaviconsPlugin(path.join(__dirname, 'src', 'images/favicon.png')),
     createHtmlPlugin({
       minify: true
     }),
@@ -53,8 +55,5 @@ export default defineConfig({
         quietDeps: true
       }
     }
-  },
-  server: {
-    port: 8080
   }
 });

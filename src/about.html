@@ -1,15 +1,57 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="id">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Bootstrap w/ Vite</title>
-    <link rel="stylesheet" href="scss/app.scss">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap dengan Vite</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
     <script type="module" src="/js/main.js"></script>
   </head>
   <body>
-    <div class="container py-5">
-      <i class="fas fa-info-circle"></i>
+    <div class="container py-4 px-3 mx-auto">
+      <header class="d-flex justify-content-between align-items-md-center pb-3 mb-5 border-bottom">
+        <h1 class="h4">
+          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bootstrap-fill d-inline-block me-2" viewBox="0 0 16 16">
+              <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z" />
+              <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z" />
+            </svg>
+            <span>BootsVite</span>
+          </a>
+        </h1>
+        <a href="https://github.com/cakadi190/bootstrap-multipage" target="_blank" rel="noopener">Lihat di GitHub</a>
+      </header>
+
+      <div class="row">
+        <div class="col-md-8">
+          <a href="./" class="text-decoration-none"><i class="fas fa-arrow-left"></i> Kembali</a>
+          <h1>Tentang Kit Ini</h1>
+          <p>Kami sadar bahwa dalam membangun website itu tidaklah mudah. Maka daripada itu saya sebagai fullstack web developer akan memberikan kit ini secara sukarela kepada masyarakat umum supaya lebih mudah dalam membangun situs web dengan bootstrap versi terbaru.</p>
+
+          <p class="mb-0">Silahkan lihat <a href="https://github.com/cakadi190/bootstrap-multipage">github</a> untuk informasi lebih lanjut.</p>
+        </div>
+      </div>
+
+      <hr class="mt-5 mb-4" />
+
+		<h3>Catatan Rilis</h3>
+
+		<ul>
+			<li>V1.0.0
+				<ul>
+					<li>Bootstrap 5.3.3</li>
+					<li>jQuery 3.6.0</li>
+					<li>Popper.js 2.11.6</li>
+					<li>Font Awesome 6.3.0</li>
+					<li>Tabler Icons 1.0.0</li>
+					<li>Vite 5.x.x</li>
+				</ul>
+			</li>
+		</ul>
+		
+      <hr class="mt-5 mb-4" />
+
+      <p class="text-muted">Dibuat dan dipublikasikan oleh Cak Adi. Lisensi MIT.</p>
     </div>
   </body>
 </html>

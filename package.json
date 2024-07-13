@@ -28,6 +28,8 @@
     "tsc": "^2.0.4",
     "typescript": "^5.5.3",
     "url": "^0.11.3",
+    "vite-plugin-favicon": "^1.0.8",
+    "vite-plugin-favicon2": "^1.1.5",
     "vite-plugin-html": "^3.2.2"
   },
   "devDependencies": {
